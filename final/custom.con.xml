@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/25/20 17:30:12 by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\hoang\Desktop\sumo\final\custom.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\hoang\Desktop\sumo\final\custom.net.xml"/>
+        <plain-output-prefix value="C:\Users\hoang\Desktop\sumo\final\custom"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<connections version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <connection from="down01" to="road5" fromLane="0" toLane="0"/>
+    <connection from="down01" to="road04" fromLane="0" toLane="1"/>
+    <connection from="down01" to="road04" fromLane="0" toLane="2"/>
+
+    <connection from="down02" to="down01" fromLane="0" toLane="0"/>
+
+    <connection from="down03" to="down02" fromLane="0" toLane="0"/>
+
+    <connection from="down04" to="down03" fromLane="0" toLane="0"/>
+
+    <connection from="down05" to="down04" fromLane="0" toLane="0"/>
+
+    <connection from="down06" to="down05" fromLane="0" toLane="0"/>
+
+    <connection from="down07" to="down06" fromLane="0" toLane="0"/>
+
+    <connection from="down08" to="down07" fromLane="0" toLane="0"/>
+
+    <connection from="down09" to="down08" fromLane="0" toLane="0"/>
+
+    <connection from="down1" to="down2" fromLane="0" toLane="0"/>
+
+    <connection from="down2" to="down3" fromLane="0" toLane="0"/>
+
+    <connection from="down3" to="down4" fromLane="0" toLane="0"/>
+
+    <connection from="down4" to="down5" fromLane="0" toLane="0"/>
+
+    <connection from="down5" to="down6" fromLane="0" toLane="0"/>
+
+    <connection from="down6" to="down7" fromLane="0" toLane="0"/>
+
+    <connection from="down7" to="down8" fromLane="0" toLane="0"/>
+
+    <connection from="down8" to="down9" fromLane="0" toLane="0"/>
+
+    <connection from="down9" to="road6" fromLane="0" toLane="0"/>
+    <connection from="down9" to="road05" fromLane="0" toLane="1"/>
+    <connection from="down9" to="road05" fromLane="0" toLane="2"/>
+
+    <connection from="road01" to="road08" fromLane="0" toLane="0"/>
+    <connection from="road01" to="road08" fromLane="1" toLane="1"/>
+    <connection from="road01" to="road08" fromLane="2" toLane="2"/>
+
+    <connection from="road02" to="road01" fromLane="0" toLane="0"/>
+    <connection from="road02" to="road01" fromLane="1" toLane="1"/>
+    <connection from="road02" to="road01" fromLane="2" toLane="2"/>
+
+    <connection from="road03" to="road02" fromLane="0" toLane="0"/>
+    <connection from="road03" to="road02" fromLane="1" toLane="1"/>
+    <connection from="road03" to="road02" fromLane="2" toLane="2"/>
+
+    <connection from="road04" to="road03" fromLane="0" toLane="0"/>
+    <connection from="road04" to="road03" fromLane="1" toLane="1"/>
+    <connection from="road04" to="road03" fromLane="2" toLane="2"/>
+
+    <connection from="road05" to="road04" fromLane="0" toLane="0"/>
+    <connection from="road05" to="road04" fromLane="1" toLane="1"/>
+    <connection from="road05" to="road04" fromLane="2" toLane="2"/>
+    <connection from="road05" to="down1" fromLane="2" toLane="0"/>
+
+    <connection from="road06" to="road05" fromLane="0" toLane="0"/>
+    <connection from="road06" to="road05" fromLane="1" toLane="1"/>
+    <connection from="road06" to="road05" fromLane="2" toLane="2"/>
+    <connection from="road06" to="down09" fromLane="2" toLane="0"/>
+
+    <connection from="road07" to="road06" fromLane="0" toLane="0"/>
+    <connection from="road07" to="road06" fromLane="1" toLane="1"/>
+    <connection from="road07" to="road06" fromLane="2" toLane="2"/>
+
+    <connection from="road08" to="road07" fromLane="0" toLane="0"/>
+    <connection from="road08" to="road07" fromLane="1" toLane="1"/>
+    <connection from="road08" to="road07" fromLane="2" toLane="2"/>
+
+    <connection from="road1" to="road2" fromLane="0" toLane="0"/>
+    <connection from="road1" to="road2" fromLane="1" toLane="1"/>
+    <connection from="road1" to="road2" fromLane="2" toLane="2"/>
+
+    <connection from="road2" to="road3" fromLane="0" toLane="0"/>
+    <connection from="road2" to="road3" fromLane="1" toLane="1"/>
+    <connection from="road2" to="road3" fromLane="2" toLane="2"/>
+
+    <connection from="road3" to="road4" fromLane="0" toLane="0"/>
+    <connection from="road3" to="road4" fromLane="1" toLane="1"/>
+    <connection from="road3" to="road4" fromLane="2" toLane="2"/>
+
+    <connection from="road4" to="down1" fromLane="0" toLane="0"/>
+    <connection from="road4" to="road5" fromLane="0" toLane="0"/>
+    <connection from="road4" to="road5" fromLane="1" toLane="1"/>
+    <connection from="road4" to="road5" fromLane="2" toLane="2"/>
+
+    <connection from="road5" to="down09" fromLane="0" toLane="0"/>
+    <connection from="road5" to="road6" fromLane="0" toLane="0"/>
+    <connection from="road5" to="road6" fromLane="1" toLane="1"/>
+    <connection from="road5" to="road6" fromLane="2" toLane="2"/>
+
+    <connection from="road6" to="road7" fromLane="0" toLane="0"/>
+    <connection from="road6" to="road7" fromLane="1" toLane="1"/>
+    <connection from="road6" to="road7" fromLane="2" toLane="2"/>
+
+    <connection from="road7" to="road8" fromLane="0" toLane="0"/>
+    <connection from="road7" to="road8" fromLane="1" toLane="1"/>
+    <connection from="road7" to="road8" fromLane="2" toLane="2"/>
+
+    <connection from="road8" to="road1" fromLane="0" toLane="0"/>
+    <connection from="road8" to="road1" fromLane="1" toLane="1"/>
+    <connection from="road8" to="road1" fromLane="2" toLane="2"/>
+
+</connections>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/25/20 17:30:12 by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\hoang\Desktop\sumo\final\custom.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\hoang\Desktop\sumo\final\custom.net.xml"/>
+        <plain-output-prefix value="C:\Users\hoang\Desktop\sumo\final\custom"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<edges version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="down01" from="node1" to="nod5" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down02" from="node2" to="node1" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down03" from="node3" to="node2" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down04" from="node4" to="node3" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down05" from="node5" to="node4" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down06" from="node6" to="node5" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down07" from="node7" to="node6" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down08" from="node8" to="node7" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down09" from="nod6" to="node8" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down1" from="nod5" to="node1" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down2" from="node1" to="node2" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down3" from="node2" to="node3" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down4" from="node3" to="node4" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down5" from="node4" to="node5" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down6" from="node5" to="node6" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down7" from="node6" to="node7" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down8" from="node7" to="node8" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="down9" from="node8" to="nod6" priority="-1" numLanes="1" speed="13.89"/>
+    <edge id="road01" from="nod2" to="nod1" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road02" from="nod3" to="nod2" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road03" from="nod4" to="nod3" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road04" from="nod5" to="nod4" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road05" from="nod6" to="nod5" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road06" from="nod7" to="nod6" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road07" from="nod8" to="nod7" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road08" from="nod1" to="nod8" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road1" from="nod1" to="nod2" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road2" from="nod2" to="nod3" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road3" from="nod3" to="nod4" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road4" from="nod4" to="nod5" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road5" from="nod5" to="nod6" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road6" from="nod6" to="nod7" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road7" from="nod7" to="nod8" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="road8" from="nod8" to="nod1" priority="-1" numLanes="3" speed="13.89"/>
+</edges>

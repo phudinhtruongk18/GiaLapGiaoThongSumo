@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType accel="3.0" decel="6.0" id="oto" length="6" width="2" maxSpeed="120.0" sigma="0.5" />
+  <vType accel="2.0" decel="6.0" id="xemay" length="5" width="1" maxSpeed="60" sigma="0.5" />
+  
+  
+  <route id="upUnClock" edges="road1 road2 road3 road4 road5 road6 road7 road8"/>
+  <route id="upClock" edges="road01 road08 road07 road06 road05 road04 road03 road02"/>
+  <route id="downUnClock" edges="down1 down2 down3 down4 down5 down6 down7 down8 down9 road05"/>
+  <route id="downClock" edges="down01 road5 down09 down08 down07 down06 down05 down04 down03 down02"/>
+  
+  <flow id="carflowupUnClock" type="oto" beg="0" end="0" route="upUnClock" number="60" color="1,1,1"/> 
+  <flow id="bikeflowupUnClock" type="xemay" beg="0" end="0" route="upUnClock" number="80" color="1,0,1"/>
+  <flow id="carflowupClock" type="oto" beg="0" end="0" route="upClock" number="20" color="0,1,1"/> 
+  <flow id="bikeflowupClock" type="xemay" beg="0" end="0" route="upClock" number="60" color="0,0,1"/>
+  <flow id="carflowdownUnClock" type="oto" beg="0" end="0" route="downUnClock" number="15" color="1,1,0"/> 
+  <flow id="bikeflowdownUnClock" type="xemay" beg="0" end="0" route="downUnClock" number="20" color="0,1,0"/>
+  <flow id="carflowdownClock" type="oto" beg="0" end="0" route="downClock" number="5" color="1,0,0"/> 
+  <flow id="bikeflowdownClock" type="xemay" beg="0" end="0" route="downClock" number="40" color="1,0,1"/>
+
+...
+</routes>
+                                                                                                                                                         

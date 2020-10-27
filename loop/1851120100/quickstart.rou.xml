@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType accel="3.0" decel="6.0" id="oto" length="8.0" width="4.8" maxSpeed="120.0" sigma="0.5" />
+  <vType accel="2.0" decel="6.0" id="xemay" length="3.8" width="1.8" maxSpeed="60" sigma="0.5" />
+  
+  <route id="upUnClock" edges="road1 road2 road3 road4 road5 road6 road7 road8"/>
+  <route id="upClock" edges="road01 road08 road07 road06 road05 road04 road03 road02"/>
+  <route id="downUnClock" edges="down1 down2 down3 down4 down5 down6 down7 down8 down9 road05"/>
+  <route id="upClock" edges="down01 down02 down03 down04 down05 down06 down07 down08 down09 road5"/>
+  
+  <vehicle depart="2" id="bike1" route="upUnClock" type="xemay" color="1,0,0" />
+  <vehicle depart="2" id="car1" route="upUnClock" type="oto" color="1,1,0" />
+...
+</routes>
+                                                                                                                                                         

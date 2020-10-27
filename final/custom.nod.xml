@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/25/20 17:30:12 by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\hoang\Desktop\sumo\final\custom.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\hoang\Desktop\sumo\final\custom.net.xml"/>
+        <plain-output-prefix value="C:\Users\hoang\Desktop\sumo\final\custom"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<nodes version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <location netOffset="0.00,0.00" convBoundary="-80.03,-68.79,184.35,95.02" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <node id="nod1" x="71.13" y="94.67" type="priority"/>
+    <node id="nod2" x="4.08" y="95.02" type="priority"/>
+    <node id="nod3" x="-28.92" y="55.77" type="priority"/>
+    <node id="nod4" x="-29.96" y="9.57" type="priority"/>
+    <node id="nod5" x="12.07" y="-16.48" type="priority"/>
+    <node id="nod6" x="84.67" y="-17.18" type="priority"/>
+    <node id="nod7" x="119.76" y="10.61" type="priority"/>
+    <node id="nod8" x="115.59" y="50.90" type="priority"/>
+    <node id="node1" x="-16.98" y="-48.61" type="priority"/>
+    <node id="node2" x="-57.75" y="-5.74" type="priority"/>
+    <node id="node3" x="-80.03" y="-13.31" type="priority"/>
+    <node id="node4" x="-77.51" y="-65.84" type="priority"/>
+    <node id="node5" x="163.33" y="-68.79" type="priority"/>
+    <node id="node6" x="184.35" y="-24.65" type="priority"/>
+    <node id="node7" x="156.19" y="-9.94" type="priority"/>
+    <node id="node8" x="109.53" y="-44.41" type="priority"/>
+</nodes>

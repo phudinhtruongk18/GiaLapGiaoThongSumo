@@ -1,0 +1,18 @@
+<routes>
+    <vType accel="1.0" decel="5.0" id="Oto1" length="4.0" maxSpeed="100.0" sigma="0" />
+    <vType accel="2.0" decel="6.0" id="Oto2" length="8.5" maxSpeed="100.0" sigma="0" />
+    <vType accel="2.0" decel="6.0" id="Oto3" length="16.5" maxSpeed="100.0" sigma="0" />
+    <vType accel="2.0" decel="6.0" id="Oto01" length="4.5" maxSpeed="50.0" sigma="0" />
+    <vType accel="2.0" decel="6.0" id="Oto02" length="10" maxSpeed="50.0" sigma="0" />
+    <vType accel="2.0" decel="6.0" id="Oto03" length="9" maxSpeed="50.0" sigma="0" />
+    
+    <route id="traiQuaPhai" edges="1to2 out"/>
+    <route id="phaiQuaTrai" edges="2to1"/>
+    
+    <vehicle depart="00" id="xe01" route="phaiQuaTrai" type="Oto01" color="1,1,1" />    
+    <vehicle depart="100" id="xe1" route="traiQuaPhai" type="Oto1" color="1,0,0" />
+    <vehicle depart="105" id="xe02" route="phaiQuaTrai" type="Oto02" color="1,1,0" />
+    <vehicle depart="115" id="xe03" route="phaiQuaTrai" type="Oto03" color="1,0,0" />
+    <vehicle depart="120" id="xe2" route="traiQuaPhai" type="Oto2" color="1,1,0" />
+    <vehicle depart="120" id="xe3" route="traiQuaPhai" type="Oto3" color="1,1,1" />
+</routes>
